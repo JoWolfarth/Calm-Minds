@@ -26,6 +26,9 @@ body {
     color: var(--primary-color);
 }
 
+p {
+    font-size: medium;
+}
 .section {
     padding-top: 4rem; /*prevent nav bar overlap*/
 }
@@ -33,3 +36,16 @@ body {
 h2 {
     font-family: var(--secondary-font);
 }
+
+.img-fluid {
+    display: flex;
+    padding-bottom: 1.5rem;
+}
+
+img.img-fluid {
+    max-width: 75%;
+    max-height: 75%;
+    margin: auto;
+}
+
+/*Meadia Queries*/
