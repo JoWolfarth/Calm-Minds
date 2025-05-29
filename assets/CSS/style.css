@@ -26,11 +26,18 @@ body {
     color: var(--primary-color);
 }
 
+h1 {
+    font-size: 200%;
+}
 p {
     font-size: medium;
 }
 .section {
     padding-top: 4rem; /*prevent nav bar overlap*/
+}
+
+section .further-resources {
+    font-size: ;
 }
 
 h2 {
