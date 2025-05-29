@@ -143,6 +143,8 @@ See attached pdf
 
 # Colour Pallet
 
+Color pallet has been chosen for its relaxing tones and was taken from the Hero image using coolors.co
+
 # Deployment
 
 This site was deployed on Github pages.
@@ -159,11 +161,15 @@ If the box stating your site is live keep refreshing until it appears.
 
 # AI usage
 
-Used AI to create a hero image
-Used Ai to create basic html template using bootstrap
+Used Copilot to create a hero image
+Used Copilot to create basic html template using bootstrap
+Used Google AI to help decide on font choices
 
 # Font choices
 
-I've chosen these fonts for the calming influence.
+I've chosen these fonts for the calming influence. They were reconmended using google AI
+Inter
+Lexend
+Macondo
 
 # Testing and validation
