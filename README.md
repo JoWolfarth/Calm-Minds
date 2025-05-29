@@ -148,6 +148,7 @@ See attached pdf
 # AI usage
 
 Used AI to create a hero image
+Used Ai to create basic html template using bootstrap
 
 # Font choices
 
