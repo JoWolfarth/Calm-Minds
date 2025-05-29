@@ -139,11 +139,15 @@ Use bootstrap to create a responsive design across all popular screen sizes
 
 # Wireframes
 
+See attached pdf
+
 # Colour Pallet
 
 # Deployment
 
 # AI usage
+
+Used AI to create a hero image
 
 # Font choices
 
