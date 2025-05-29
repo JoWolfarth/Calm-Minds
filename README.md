@@ -145,6 +145,18 @@ See attached pdf
 
 # Deployment
 
+This site was deployed on Github pages.
+Visit Github
+Navigate to Calm Minds repository
+Click the settings icon at the top right of the repository page
+Navigate down the menu to pages
+Put in name of the site
+Change Branch from none to main
+Click Save
+Wait a few seconds, and then hard refresh the page
+When the box appears stating your site is live click open and the site will deploy in a new window
+If the box stating your site is live keep refreshing until it appears.
+
 # AI usage
 
 Used AI to create a hero image
