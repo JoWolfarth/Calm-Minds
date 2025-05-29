@@ -1,1 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Macondo&display=swap");
+
+/*CSS variables*/
+:root {
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #183b42; 
+    --secondary-color: #206177;
+    --highlight-color: #368ba3; 
+    --highlight-color-light: #d8ebda;
+/*Global Styles*/
+
+body {
+    font-family: "Inter" sans-serif;
+}
+
+/*Nav bar*/
+#navbar {
+    background-color: #224466;
+    color: #d8ebda;
+}
+.nav-link {
+    color: #d8ebda;
+}
+
+/*Header*/
+#header {
+    background-color: white;
+    color: blue;
+}
