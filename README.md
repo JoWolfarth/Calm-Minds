@@ -151,4 +151,6 @@ Used AI to create a hero image
 
 # Font choices
 
+I've chosen these fonts for the calming influence.
+
 # Testing and validation
