@@ -164,6 +164,7 @@ If the box stating your site is live keep refreshing until it appears.
 Used Copilot to create a hero image
 Used Copilot to create basic html template using bootstrap
 Used Google AI to help decide on font choices
+Used Copilot to move nav menu to the right and icon to the left
 
 # Font choices
 

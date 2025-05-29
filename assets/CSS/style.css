@@ -4,27 +4,32 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
-    --primary-color: #183b42; 
+    --primary-color: #183b42;
     --secondary-color: #206177;
-    --highlight-color: #368ba3; 
+    --highlight-color: #368ba3;
     --highlight-color-light: #d8ebda;
+}
 /*Global Styles*/
 
 body {
-    font-family: "Inter" sans-serif;
+    font-family: var(--primary-font);
 }
 
 /*Nav bar*/
 #navbar {
-    background-color: #224466;
-    color: #d8ebda;
-}
-.nav-link {
-    color: #d8ebda;
+    background-color: var(--highlight-color);
 }
 
 /*Header*/
 #header {
-    background-color: white;
-    color: blue;
+    background-color: var(--highlight-color-light);
+    color: var(--primary-color);
+}
+
+.section {
+    padding-top: 4rem; /*prevent nav bar overlap*/
+}
+
+h2 {
+    font-family: var(--secondary-font);
 }
