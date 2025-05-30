@@ -165,6 +165,7 @@ Used Copilot to create a hero image
 Used Copilot to create basic html template using bootstrap
 Used Google AI to help decide on font choices
 Used Copilot to move nav menu to the right and icon to the left
+Used Chat gpt to get alt text for images
 
 # Font choices
 
