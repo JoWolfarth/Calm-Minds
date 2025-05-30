@@ -32,6 +32,12 @@ h1 {
 p {
     font-size: medium;
 }
+
+#carouselExampleAutoplaying {
+    max-height: 700px;
+    max-width: 700px;
+    margin: auto;
+}
 .section {
     padding-top: 4rem; /*prevent nav bar overlap*/
 }
