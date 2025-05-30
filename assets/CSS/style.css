@@ -58,6 +58,18 @@ img.img-fluid {
 }
 
 /*contact details*/
+#contact {
+    background-color: var(--highlight-color);
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 4em;
+}
+
+#social {
+    border: none;
+}
 
 /*Meadia Queries*/
 
