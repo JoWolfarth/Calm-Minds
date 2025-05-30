@@ -48,7 +48,7 @@ h2 {
 
 .img-fluid {
     display: flex;
-    padding-bottom: 1.5rem;
+    padding: 1.5rem;
 }
 
 img.img-fluid {
@@ -61,5 +61,8 @@ img.img-fluid {
 
 /*Media quires for (xl laptops, over 1200px)*/
 @media screen and (min-width: 1200px) {
-    margin-top: 20rem;
+    #title {
+        margin-top: 4rem;
+        padding-left: 4rem;
+    }
 }
