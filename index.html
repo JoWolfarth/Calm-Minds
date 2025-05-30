@@ -132,7 +132,7 @@
         </section>
 
         <!--Tips & Tricks-->
-        <section id="tips-&-tricks">
+        <!-- <section id="tips-&-tricks">
             <div class="container">
                 <h2>Tips and Tricks</h2>
                 <div class="container text-center">
@@ -161,18 +161,61 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
 
     </main>
 
-    <!-- Footer -->
-    <footer class="mt-auto">
+    <!-- Footer /contact section -->
+    <footer class="mt-auto" id="contact">
         <div class="container">
-            <span class="text-muted">&copy; 2025 Calm Minds. All rights reserved.</span>
+            <div class="row">
+                <div col-12>
+                    <h2 class="justify-content-center">Contact us!</h2>
+                </div>
+                <!--Contact info-->
+                <div>
+                    <h3 display-1>Contact info</h3>
+                    <address>123 Calm minds,<br>
+                        Calm Street,<br>
+                        TR9 6LP</address>
+                    <P>0123 456 789<br>
+                        info@calmminds.co.uk</P>
+                </div>
+                <div class="my-social my-4">
+                    <a href="https://www.facebook.com/" target="_blank"
+                        aria-label="Visit our Instagram page (opens in new tab)" rel="noopener"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+
+            </div>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <script>
+        document
+            .querySelectorAll(".navbar-collapse .nav-link")
+            .forEach((link) => {
+                link.addEventListener("click", function (e) {
+                    let section = document.querySelector(e.target.getAttribute("href"));
+                    if (section) {
+                        e.preventDefault(); // Prevent default anchor click behavior
+                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        window.scroll({
+                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            behavior: "smooth",
+                        });
+                        document
+                            .querySelector(".navbar-collapse")
+                            .classList.remove("show"); // Collapse navbar
+                    }
+                });
+            });
+    </script>
 </body>
 
 </html>
