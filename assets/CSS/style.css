@@ -42,10 +42,6 @@ p {
     padding-top: 4rem; /*prevent nav bar overlap*/
 }
 
-section .further-resources {
-    font-size: ;
-}
-
 h2 {
     font-family: var(--secondary-font);
 }
@@ -62,3 +58,8 @@ img.img-fluid {
 }
 
 /*Meadia Queries*/
+
+/*Media quires for (xl laptops, over 1200px)*/
+@media screen and (min-width: 1200px) {
+    margin-top: 20rem;
+}
