@@ -144,6 +144,7 @@ See attached pdf
 # Colour Pallet
 
 Color pallet has been chosen for its relaxing tones and was taken from the Hero image using coolors.co
+please see attached pdf
 
 # Deployment
 
@@ -167,7 +168,6 @@ Used Google AI to help decide on font choices
 Used Copilot to move nav menu to the right and icon to the left
 Used Chat gpt to get alt text for images
 Used copilot to add links to external resources to save typing it over again
-Used copilot to
 
 # Font choices
 
@@ -177,3 +177,7 @@ Lexend
 Macondo
 
 # Testing and validation
+
+html has been tested with W3 schools validator
+css has been tested with W3 schools validator
+Used lighthouse for validation of performance, accessibility and best practice.
