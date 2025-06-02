@@ -33,6 +33,25 @@ p {
     font-size: medium;
 }
 
+h3 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+h4 {
+    font-size: large;
+    font-weight: bolder;
+    text-align: start;
+}
+
+#tricks > h4 {
+    text-align: start;
+}
+
+#tips-tricks {
+    background-color: var(--highlight-color-light);
+}
+
 #carouselExampleAutoplaying {
     max-height: 700px;
     max-width: 700px;
@@ -73,7 +92,14 @@ img.img-fluid {
 
 /*Meadia Queries*/
 
-/*Media quires for (xl laptops, over 1200px)*/
+/*Media quires for (xl laptops, over 992px)*/
+@media screen and (min-width: 992px) {
+    header p {
+        font-size: 150%;
+    }
+}
+
+/*Media quires for (xl laptops, over 1200px) */
 @media screen and (min-width: 1200px) {
     #title {
         margin-top: 4rem;
